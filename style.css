@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #0c0d24;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(130, 93, 160);
+}
+li,
+a,
+button {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  cursor: pointer;
+  margin-left: 2rem;
+  padding-top: 3rem;
+  width: 150px;
+}
+.nav-links {
+  list-style: none;
+}
+.nav-links li {
+  display: inline-block;
+  padding: 20px;
+}
+.nav-links li a {
+  transition: all 0.25s ease 0s;
+  font-size: 1.8rem;
+}
+.nav-links li a:hover {
+  color: black;
+  background-color: rgb(54, 191, 255);
+  padding: 0.5rem;
+  border-radius: 25%;
+}
+button {
+  padding: 9px 25px;
+  background-color: rgb(3, 177, 216);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-right: 4rem;
+  color: #0c0d24;
+}
+button:hover {
+  background-color: rgba(3, 119, 148, 0.8);
+  color: white;
+}
+h1 {
+  color: rgb(32, 208, 252);
+  margin-top: 5rem;
+  margin-left: 2rem;
+  font-size: 5rem;
+  font-family: ;
+  margin-bottom: 3rem;
+}
+.objectives-list li {
+  font-size: 2rem;
+  margin-left: 2rem;
+  list-style-type: none;
+  margin-top: 0.5rem;
+}
+.objectives-list li:hover {
+  color: rgb(58, 163, 204);
+}
+.alexandertvimage {
+  width: 55rem;
+  float: right;
+  margin: 1rem 12rem 0rem 0;
+  border-radius: 1%;
+  box-shadow: 1rem 1rem 20rem rgba(0, 225, 255, 0.5);
+}
+h1,
+ul {
+  float: left;
+  margin-left: 3rem;
+}
